@@ -1,0 +1,26 @@
+{
+  "name": "login-with-node",
+  "version": "1.0.0",
+  "description": "user login with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbarisaslan/login-with-node.git"
+  },
+  "author": "xbarisaslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xbarisaslan/login-with-node/issues"
+  },
+  "homepage": "https://github.com/xbarisaslan/login-with-node#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
