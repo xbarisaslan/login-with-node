@@ -2,10 +2,16 @@
 
 <form action="/register" method="POST">
 
-<p>Name <input type="textbox"></p>
-<p>E-mail <input type="textbox"></p>
-<p>Password <input type="password"></p>
+<p> 
+    <label for="name">Name</label> <input type="text" name="name" required> 
+</p>
+<p> 
+    <label for="e-mail">E-mail</label> <input type="e-mail" name="e-mail" required> 
+</p>
+<p> 
+    <label for="password">Password</label> <input type="password" name="password" required> 
+</p>
 
-<button type="submit">Register</button>
+<button type="submit">Register</button> Already have an account? <a href="http://localhost:3000/login">Login</a>
 
 </form>
