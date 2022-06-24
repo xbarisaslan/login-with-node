@@ -1,14 +1,14 @@
-<h2> Login Page </h2>
-
-<form action="/login" method="POST">
-
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<div class="login">
+    <div class="header"><h2> Sign in </h2></div>
+    <form action="/login" method="POST">
 <p>
-   <label for="e-mail">E-mail</label> <input type="e-mail" name="e-mail" required>
+    <label for="e-mail"></label> <input type="e-mail" name="e-mail" placeholder="Email" required>
 </p>
 <p>
-    <label for="passowrd">Password</label> <input type="password" name="password" required>
+    <label for="password"></label> <input type="password" name="password" placeholder="Password" required>
 </p>
-
-<button type="submit">Login</button> You don't have an account? <a href="http://localhost:3000/register">Register</a>
-
-</form>
+    <button type="submit" class="login-button">SIGN IN</button> 
+    <br/>You don't have an account? <a href="http://localhost:3000/register">Register</a>
+    </form>
+</div>
