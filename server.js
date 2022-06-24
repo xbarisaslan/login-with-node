@@ -5,11 +5,13 @@ const app = express()
 
 const initializePassport = require('./passport-config')
 
-
 const users = [] // Normally using database is the way.
 
 app.set('view-engine' , 'ejs')
+
 app.use(express.urlencoded({ extended: false} )) // This is for taking the forms from the e-mail and password and access them inside the req variable inside the post method.
+
+app.use(express.static('public'));
 
 app.get('/' , (req,res) => {
     res.render('index.ejs')
